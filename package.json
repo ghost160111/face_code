@@ -1,0 +1,7 @@
+{
+    "name": "face_code",
+    "version": "1.0.0",
+    "scripts": {
+        "vercel-build": "./setup.sh"
+    }
+}
