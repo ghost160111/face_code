@@ -149,7 +149,11 @@ DATABASES = {
         'USER': os.environ.get('USER'),
         'PASSWORD': os.environ.get('PASSWORD'),
         'HOST': os.environ.get('HOST'),
-        'PORT': os.environ.get('PORT')
+        'PORT': os.environ.get('PORT'),
+        "CONN_MAX_AGE": 60,  # Closes connections after 60 seconds of inactivity
+        "OPTIONS": {
+            "sslmode": "require",
+        }
     }
 }
 
