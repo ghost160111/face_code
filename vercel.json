@@ -15,5 +15,6 @@
         "runtime": "python3.9"
       }
     }
-  ]
+  ],
+  "buildCommand": "bash setup.sh"
 }
