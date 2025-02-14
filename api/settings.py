@@ -79,7 +79,7 @@ TEMPLATES = [
 UNFOLD = {
     "SITE_TITLE": "Face Code",
     "SITE_HEADER": "Face Code",
-    "SITE_URL": "/api/contacts/",
+    "SITE_URL": "https://face-code-client.vercel.app",
     "SHOW_HISTORY": True,
     "SHOW_VIEW_ON_SITE": True,
     "COLORS": {
